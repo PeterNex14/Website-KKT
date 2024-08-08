@@ -63,13 +63,11 @@ export default function Home() {
           <div className='mb-4 flex flex-row justify-between gap-[48px]'>
             <div className='flex flex-col w-full '>
               <img src="/sejarah_desa.jpeg" alt="" className=' h-[350px] rounded-2xl ' />
-              <p>Kerangka manusia purba yang di temukan di Situs Purbakala “Bukit Kerang Passo” (Lokasinya di gereja GMIM Immanuel Passo).
-                Saat ini kerangka tersebut ada di museum Arkeolog Ranomu’ut Manado </p>
+              <p>Periuk Tanah Liat. Sebuah jejak peninggalan budaya Austronesia di tanah Minahasa. Periuk dengan ukuran besar biasanya digunakan sebagai tempat menyimpan tulang belulang dari manusia yang meninggal. </p>
             </div>
             <div className='flex flex-col w-full'>
               <img src="/sejarah_desa_2.jpeg" alt="" className=' h-[350px] rounded-2xl' />
-              <p>Kerangka manusia purba yang di temukan di Situs Purbakala “Bukit Kerang Passo” (Lokasinya di gereja GMIM Immanuel Passo).
-                Saat ini kerangka tersebut ada di museum Arkeolog Ranomu’ut Manado </p>
+              <p>Tim Penggali Situs Purbakala do lokasi Gereja GMIM Passo oleh Ir. Peter Bell Wood dari Universitas Nasional Australidan A.R. Sugondo </p>
             </div>
             <div className='flex flex-col w-full'>
               <img src="/sejarah_desa_1.jpeg" alt="" className=' h-[350px] rounded-2xl' />
