@@ -54,19 +54,30 @@ export default function Home() {
         <div className="h-[80px]"></div>
         <div id="sejarah_desa" className='px-[100px] flex flex-col'>
           <p className='text-[60px] font-semibold mb-[24px]'>Sejarah Desa</p>
-
-          <div className='mb-4 flex flex-row justify-between'>
-
-            <img src="/sejarah_desa.jpeg" alt="" className='w-[350px] h-[350px] rounded-2xl' />
-            <img src="/sejarah_desa_2.jpeg" alt="" className='w-[350px] h-[350px] rounded-2xl' />
-            <img src="/sejarah_desa_1.jpeg" alt="" className='w-[350px] h-[350px] rounded-2xl' />
-          </div>
-
           <p className='mb-[14px]'>Passo adalah sebuah desa indah di tepi Danau Tondano, Kecamatan Kakas Barat, Kabupaten Minahasa, Sulawesi Utara. Kakas Barat merupakan pemekaran dari Kecamatan Kakas. Passo mungkin dulunya bagian dari distrik Kakas dan dikenal karena banyaknya sumber mata air panas, yang dalam bahasa Minahasa disebut "Passo" (Panas).</p>
           <p className='mb-[14px]'>Selain kekayaan alam, Passo memiliki situs budaya, cerita rakyat, dan timbunan sampah kerang dari zaman prasejarah. Pada 1974, tim peneliti dari Pusat Penelitian Purbakala Indonesia dan Universitas Nasional Australia menemukan sampah kerang dan tulang belulang hewan purba berusia 7,000 tahun, serta perkakas dapur dan bekas arang dari zaman yang sama.</p>
           <p className='mb-[14px]'>Budayawan Minahasa, Rinto Tarore, meyakini bahwa Passo terbentuk sebagai pemukiman setelah perang Tondano, dibuktikan oleh kuburan tua seperti milik Daniel Supit (1768–1857), mantan hukum tua Rurukan yang pindah ke Passo pasca perang Tondano.</p>
           <p className='mb-[14px]'>Wanua Passo terdiri dari 9 Jaga (dusun/lingkungan). Seperti wanua lainnya di Minahasa, Passo dipimpin oleh seorang Hukum Tua yang dipilih langsung oleh masyarakat secara demokratis. Setelah terpilih, Hukum Tua menunjuk Sekretaris Desa (Sekdes) dan staf yang akan bertugas selama masa jabatannya.</p>
-          <p className='mb-[14px]'>Pemimpin Jaga, yaitu Pala (Kepala Jaga) dan Meweteng (Wakil Kepala Jaga), dulunya dipilih oleh Hukum Tua, namun sekarang mereka dipilih langsung oleh warga di lingkungan masing-masing sesuai peraturan baru.</p>
+          <p className='mb-[24px]'>Pemimpin Jaga, yaitu Pala (Kepala Jaga) dan Meweteng (Wakil Kepala Jaga), dulunya dipilih oleh Hukum Tua, namun sekarang mereka dipilih langsung oleh warga di lingkungan masing-masing sesuai peraturan baru.</p>
+
+          <div className='mb-4 flex flex-row justify-between gap-[48px]'>
+            <div className='flex flex-col w-full '>
+              <img src="/sejarah_desa.jpeg" alt="" className=' h-[350px] rounded-2xl ' />
+              <p>Kerangka manusia purba yang di temukan di Situs Purbakala “Bukit Kerang Passo” (Lokasinya di gereja GMIM Immanuel Passo).
+                Saat ini kerangka tersebut ada di museum Arkeolog Ranomu’ut Manado </p>
+            </div>
+            <div className='flex flex-col w-full'>
+              <img src="/sejarah_desa_2.jpeg" alt="" className=' h-[350px] rounded-2xl' />
+              <p>Kerangka manusia purba yang di temukan di Situs Purbakala “Bukit Kerang Passo” (Lokasinya di gereja GMIM Immanuel Passo).
+                Saat ini kerangka tersebut ada di museum Arkeolog Ranomu’ut Manado </p>
+            </div>
+            <div className='flex flex-col w-full'>
+              <img src="/sejarah_desa_1.jpeg" alt="" className=' h-[350px] rounded-2xl' />
+              <p>Kerangka manusia purba yang di temukan di Situs Purbakala “Bukit Kerang Passo” (Lokasinya di gereja GMIM Immanuel Passo).
+                Saat ini kerangka tersebut ada di museum Arkeolog Ranomu’ut Manado </p>
+            </div>
+          </div>
+
         </div>
         <div className="h-[80px]"></div>
         <div id='potensi_desa' className="px-[100px] flex flex-row">
