@@ -52,8 +52,16 @@ export default function Home() {
 
         </div>
         <div className="h-[80px]"></div>
-        <div id="sejarah_desa"className='px-[100px] flex flex-col'>
+        <div id="sejarah_desa" className='px-[100px] flex flex-col'>
           <p className='text-[60px] font-semibold mb-[24px]'>Sejarah Desa</p>
+
+          <div className='mb-4 flex flex-row justify-between'>
+
+            <img src="/sejarah_desa.jpeg" alt="" className='w-[350px] h-[350px] rounded-2xl' />
+            <img src="/sejarah_desa_2.jpeg" alt="" className='w-[350px] h-[350px] rounded-2xl' />
+            <img src="/sejarah_desa_1.jpeg" alt="" className='w-[350px] h-[350px] rounded-2xl' />
+          </div>
+
           <p className='mb-[14px]'>Passo adalah sebuah desa indah di tepi Danau Tondano, Kecamatan Kakas Barat, Kabupaten Minahasa, Sulawesi Utara. Kakas Barat merupakan pemekaran dari Kecamatan Kakas. Passo mungkin dulunya bagian dari distrik Kakas dan dikenal karena banyaknya sumber mata air panas, yang dalam bahasa Minahasa disebut "Passo" (Panas).</p>
           <p className='mb-[14px]'>Selain kekayaan alam, Passo memiliki situs budaya, cerita rakyat, dan timbunan sampah kerang dari zaman prasejarah. Pada 1974, tim peneliti dari Pusat Penelitian Purbakala Indonesia dan Universitas Nasional Australia menemukan sampah kerang dan tulang belulang hewan purba berusia 7,000 tahun, serta perkakas dapur dan bekas arang dari zaman yang sama.</p>
           <p className='mb-[14px]'>Budayawan Minahasa, Rinto Tarore, meyakini bahwa Passo terbentuk sebagai pemukiman setelah perang Tondano, dibuktikan oleh kuburan tua seperti milik Daniel Supit (1768–1857), mantan hukum tua Rurukan yang pindah ke Passo pasca perang Tondano.</p>
