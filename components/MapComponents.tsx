@@ -5,7 +5,7 @@ import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
 
 // Fix the default icon issue
-delete L.Icon.Default.prototype._getIconUrl;
+delete (L.Icon.Default.prototype as any)._getIconUrl;
 L.Icon.Default.mergeOptions({
     iconRetinaUrl: 'https://unpkg.com/leaflet@1.7.1/dist/images/marker-icon-2x.png',
     iconUrl: 'https://unpkg.com/leaflet@1.7.1/dist/images/marker-icon.png',
@@ -21,7 +21,7 @@ const MapComponent = () => {
     }, []);
 
     // Define the coordinates for the polygon (Passo, Minahasa area)
-    const passoMinahasaCoordinates = [
+    const passoMinahasaCoordinates: L.LatLngTuple[] = [
         [1.200713, 124.841048],
         [1.209950, 124.834981], // Adjust these coordinates to outline your specific area
         [1.215153, 124.858396],

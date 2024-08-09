@@ -26,13 +26,9 @@ const MapComponent = dynamic(() => import('../components/MapComponents'), {
 
 export default function Home() {
   return (
-    <div className="flex flex-col">
+    <div className="w-full flex flex-col">
       <div className="bg-red-700 flex w-full p-4 items-center justify-between ">
-        <Image
-          src="/logo_minahasa.png"
-          width={40}
-          height={40}
-        />
+        <img src="/logo_minahasa.png" alt="" className='w-[40px] h-[40px]' />
         <div className='flex flex-row gap-5 text-white'>
           <Link href={"#header"}>Beranda</Link>
           <Link href={"#sejarah_desa"}>Sejarah Desa</Link>
@@ -40,11 +36,11 @@ export default function Home() {
           <Link href={"#statistika_desa"}>Statistika Desa</Link>
           <Link href={"#perangkat_desa"}>Perangkat Desa</Link>
           <Link href={"#peta_desa"}>Peta Desa</Link>
-          <Link href={"#kkt"}>KKT 139</Link>
+          <Link href={"#kkt"}>KKT 139 UNSRAT</Link>
         </div>
       </div>
       <div id='header' className="w-full">
-        <div className="bg-[url('/intro-bg.jpg')] h-[100vh] justify-center items-center flex flex-col ">
+        <div className="bg-[url('/intro-bg.jpg')] h-[100vh] w-full justify-center items-center flex flex-col object-contain">
           <div className='bg-red-600 w-full h-full justify-center items-center flex flex-col bg-opacity-25 rounded-[24px]"'>
             <p className="flex text-white text-[100px] font-semibold">Desa Passo</p>
             <p className="text-white w-[80%] text-center mb-4 text-[25px]">Passo adalah sebuah desa di kecamatan Kakas Karat, Kabupaten Minahasa, Sulawesi utara, indonesia. Desa Passo adalah desa tertua yang ada di Minahasa. Desa ini didirikan pada tahun 1839. </p>
@@ -87,12 +83,7 @@ export default function Home() {
         <div className="h-[80px]"></div>
         <div className="px-[100px] flex flex-col justify-between items-center gap-5 ">
           <div className="w-full h-[50%] bg-red-600 flex flex-row rounded-[14px]">
-            <Image
-              src="/pemandian_air_panas_2.jpeg"
-              width={520}
-              height={0}
-              className="rounded-tl-[14px] rounded-bl-[14px]"
-            />
+            <img src="/pemandian_air_panas_2.jpeg" alt="" className='w-[520px] rounded-tl-[14px] rounded-bl-[14px] ' />
             <div className="flex flex-col p-10">
               <p className="text-[36px] font-semibold mb-4 text-white">Pemandian Air Panas</p>
               <p className="text-white">Seperti namanya, Passo yang dalam Bahasa Indonesia berarti panas, desa ini terkenal dengan titik mata air panas yang tersebar di hampir seluruh wilayahnya. Potensi ini dimanfaatkan oleh pemerintah dan masyarakat setempat sebagai sumber pemasukan. Terdapat tempat pemandian umum hingga kolam renang air panas dengan latar pemandangan indah Danau Tondano, yang menjadi daya tarik bagi wisatawan.</p>
@@ -100,12 +91,7 @@ export default function Home() {
           </div>
           <div className="w-[100px]"></div>
           <div className="w-full h-[50%] bg-red-600 flex flex-row-reverse rounded-[14px]">
-            <Image
-              src="/POTENSI_DESA_DANAU.jpg"
-              width={520}
-              height={0}
-              className="rounded-tr-[14px] rounded-br-[14px]"
-            />
+            <img src="/POTENSI_DESA_DANAU.jpg" alt="" className='w-[520px] rounded-tl-[14px] rounded-bl-[14px] ' />
             <div className="flex flex-col p-10">
               <p className="text-[36px] font-semibold text-white mb-4">Danau Tondano</p>
               <p className="text-white">Danau dan sungai Tondano mempunyai peranan penting dalam menunjang kehidupan penduduk Desa Passo dan sekitarnya. Danau ini berfungsi sebagai sumber air baku untuk PDAM Kota Manado dan Tondano, pembangkit listrik tenaga air (PLTA) Tanggari dan Tonsea Lama, sumber irigasi, perikanan darat, dan obyek wisata yang menarik banyak pengunjung.</p>
@@ -113,13 +99,7 @@ export default function Home() {
           </div>
           <div className="w-[100px]"></div>
           <div className="w-full h-[50%] bg-red-600 flex flex-row rounded-[14px]">
-            <Image
-              src="/POTENSI_DESA_SAWAH.jpg"
-              width={450}
-              height={0}
-              className="rounded-tl-[14px] rounded-bl-[14px]"
-              style={{ objectFit: "cover" }}
-            />
+            <img src="/POTENSI_DESA_SAWAH.jpg" alt="" className='w-[520px] rounded-tl-[14px] rounded-bl-[14px] ' />
             <div className="flex flex-col p-10">
               <p className="text-[36px] font-semibold text-white mb-4">Pertanian</p>
               <p className="text-white">Tahukah Anda bahwa Desa Passo, dengan luas lahan sekitar 351 hektare, mampu memproduksi padi, ikan, dan kangkung sepanjang tahun? Desa ini memiliki sektor pertanian yang sangat penting sebagai potensi sumber daya alamnya. Untuk meningkatkan kesejahteraan para petani, Pemerintah Desa telah membentuk Kelompok Tani Desa (Poktan Desa) sebagai wadah belajar guna meningkatkan pengetahuan dan keterampilan para petani. Dengan pengelolaan yang tepat, potensi Desa Passo dapat berkembang secara optimal, menjadikan desa ini contoh sukses dalam memanfaatkan sumber daya alam untuk kesejahteraan masyarakat.</p>
