@@ -2,16 +2,16 @@ import { useState } from 'react';
 import Link from 'next/link';
 
 export default function Navbar() {
-    const [isOpen, setIsOpen] = useState(false);
-    const [activeLink, setActiveLink] = useState('');
+    const [isOpen, setIsOpen] = useState<boolean>(false);
+    const [activeLink, setActiveLink] = useState<string>('');
 
-    const handleLinkClick = (link) => {
+    const handleLinkClick = (link: string) => {
         setActiveLink(link);
         setIsOpen(false); // Close the sidebar after clicking a link
     };
 
     return (
-        <div className="bg-red-700 flex w-full p-4 items-center justify-between">
+        <div className="fixed top-0 left-0 w-full bg-red-700 flex p-4 items-center justify-between z-50">
             <img src="/logo_minahasa.png" alt="" className='w-[40px] h-[40px]' />
             <div className='flex-row gap-5 text-white hidden sm:flex'>
                 <Link href="#header">Beranda</Link>
@@ -80,7 +80,7 @@ export default function Navbar() {
                     </Link>
                     <Link href="#sejarah_desa">
                         <div
-                            className={`w-[390px] p-2 rounded ${activeLink === 'sejarah_desa' ? 'bg-red-900' : ''
+                            className={`p-2 rounded ${activeLink === 'sejarah_desa' ? 'bg-red-900' : ''
                                 }`}
                             onClick={() => handleLinkClick('sejarah_desa')}
                         >
@@ -89,7 +89,7 @@ export default function Navbar() {
                     </Link>
                     <Link href="#potensi_desa">
                         <div
-                            className={`w-[390px] p-2 rounded ${activeLink === 'potensi_desa' ? 'bg-red-900' : ''
+                            className={`p-2 rounded ${activeLink === 'potensi_desa' ? 'bg-red-900' : ''
                                 }`}
                             onClick={() => handleLinkClick('potensi_desa')}
                         >
@@ -98,7 +98,7 @@ export default function Navbar() {
                     </Link>
                     <Link href="#statistika_desa">
                         <div
-                            className={`w-[390px] p-2 rounded ${activeLink === 'statistika_desa' ? 'bg-red-900' : ''
+                            className={`p-2 rounded ${activeLink === 'statistika_desa' ? 'bg-red-900' : ''
                                 }`}
                             onClick={() => handleLinkClick('statistika_desa')}
                         >
@@ -107,7 +107,7 @@ export default function Navbar() {
                     </Link>
                     <Link href="#perangkat_desa">
                         <div
-                            className={`w-[390px] p-2 rounded ${activeLink === 'perangkat_desa' ? 'bg-red-900' : ''
+                            className={`p-2 rounded ${activeLink === 'perangkat_desa' ? 'bg-red-900' : ''
                                 }`}
                             onClick={() => handleLinkClick('perangkat_desa')}
                         >
@@ -116,7 +116,7 @@ export default function Navbar() {
                     </Link>
                     <Link href="#peta_desa">
                         <div
-                            className={`w-[390px] p-2 rounded ${activeLink === 'peta_desa' ? 'bg-red-900' : ''
+                            className={`p-2 rounded ${activeLink === 'peta_desa' ? 'bg-red-900' : ''
                                 }`}
                             onClick={() => handleLinkClick('peta_desa')}
                         >
@@ -125,7 +125,7 @@ export default function Navbar() {
                     </Link>
                     <Link href="#kkt">
                         <div
-                            className={`w-[390px] p-2 rounded ${activeLink === 'kkt' ? 'bg-red-900' : ''
+                            className={`p-2 rounded ${activeLink === 'kkt' ? 'bg-red-900' : ''
                                 }`}
                             onClick={() => handleLinkClick('kkt')}
                         >

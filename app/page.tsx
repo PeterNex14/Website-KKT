@@ -29,9 +29,9 @@ export default function Home() {
   return (
     <div className="w-full flex flex-col">
       <Navbar />
-      <div id='header' className="w-full">
+      <div id='header' className="mt-[72px] w-full">
         <div className="bg-[url('/intro-bg.jpg')] h-auto sm:h-[100vh] w-full flex justify-center items-center flex-col bg-">
-          <div className=" bg-red-600 w-full h-full flex justify-center items-center flex-col bg-opacity-25 rounded-[24px] p-4 md:p-8">
+          <div className=" bg-red-600 w-full h-full flex justify-center items-center flex-col bg-opacity-25 p-4 md:p-8">
             <p className="text-white text-[20px] md:text-[80px] lg:text-[100px] font-semibold text-center">
               Desa Passo
             </p>
@@ -41,8 +41,8 @@ export default function Home() {
           </div>
         </div>
 
-        <div className=" h-[40px] md:h-[80px]"></div>
-        <div id="sejarah_desa" className="px-4 md:px-[50px] lg:px-[100px] flex flex-col">
+        <div id="sejarah_desa" className=" h-[40px] md:h-[80px]"></div>
+        <div className="px-4 md:px-[50px] lg:px-[100px] flex flex-col">
           <p className="text-[32px] md:text-[48px] lg:text-[60px] font-semibold mb-[16px] md:mb-[24px]">Sejarah Desa</p>
           <p className="mb-[14px] text-[14px] md:text-[16px] lg:text-[18px]">Passo adalah sebuah desa indah di tepi Danau Tondano, Kecamatan Kakas Barat, Kabupaten Minahasa, Sulawesi Utara. Kakas Barat merupakan pemekaran dari Kecamatan Kakas. Passo mungkin dulunya bagian dari distrik Kakas dan dikenal karena banyaknya sumber mata air panas, yang dalam bahasa Minahasa disebut "Passo" (Panas).</p>
           <p className="mb-[14px] text-[14px] md:text-[16px] lg:text-[18px]">Selain kekayaan alam, Passo memiliki situs budaya, cerita rakyat, dan timbunan sampah kerang dari zaman prasejarah. Pada 1974, tim peneliti dari Pusat Penelitian Purbakala Indonesia dan Universitas Nasional Australia menemukan sampah kerang dan tulang belulang hewan purba berusia 7,000 tahun, serta perkakas dapur dan bekas arang dari zaman yang sama.</p>
@@ -66,8 +66,8 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="h-[80px]"></div>
-        <div id="potensi_desa" className="px-4 md:px-[50px] lg:px-[100px] flex flex-col md:flex-row">
+        <div id="potensi_desa" className="h-[80px]"></div>
+        <div className="px-4 md:px-[50px] lg:px-[100px] flex flex-col md:flex-row">
           <p className="w-full font-semibold text-[32px] md:text-[48px] lg:text-[60px] leading-[40px] md:leading-[55px] lg:leading-[70px] mb-4 md:mb-0">
             Potensi <br />Desa
           </p>
@@ -105,8 +105,8 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="h-[80px]"></div>
-        <div id='statistika_desa' className="px-4 md:px-[50px] lg:px-[100px] flex flex-col items-center">
+        <div id='statistika_desa' className="h-[80px]"></div>
+        <div className="px-4 md:px-[50px] lg:px-[100px] flex flex-col items-center">
           <p className="mb-4 text-[24px] md:text-[30px] lg:text-[35px]">Jumlah Penduduk</p>
           <div className="w-full flex flex-col items-center justify-center">
             <div className="w-[80%] md:w-[30%] lg:w-[15%] p-4 bg-red-600 flex flex-col justify-center items-center rounded-[14px] mb-4">
@@ -164,8 +164,8 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="h-[100px]"></div>
-        <div id="perangkat_desa" className="flex flex-col items-center">
+        <div id="perangkat_desa" className="h-[100px]"></div>
+        <div className="flex flex-col items-center">
           <div className="mb-10 px-8 md:px-[100px] w-full">
             <p className="p-1 w-full text-[24px] md:text-[35px] flex bg-red-600 justify-center rounded-[14px] text-white">
               Perangkat Desa
@@ -500,8 +500,8 @@ export default function Home() {
             {/* Repeat SwiperSlide for other village officials */}
           </Swiper>
         </div>
-        <div className="h-[80px]"></div>
-        <div id='peta_desa' className="px-4 sm:px-8 md:px-16 lg:px-[100px] flex flex-col md:flex-row md:items-start md:justify-between">
+        <div id='peta_desa' className="h-[80px]"></div>
+        <div className="px-4 sm:px-8 md:px-16 lg:px-[100px] flex flex-col md:flex-row md:items-start md:justify-between">
           <p className="text-[40px] sm:text-[50px] md:text-[60px] font-semibold mb-4 md:mb-0">Peta Desa</p>
           <div className="w-full md:w-1/2">
             <p className="text-base sm:text-lg md:text-xl">
@@ -514,18 +514,22 @@ export default function Home() {
 
         <div className="mb-8 sm:mb-10 md:mb-[40px] px-4 sm:px-8 md:px-[100px] flex flex-col md:flex-row md:justify-between items-center">
           <div className="w-full flex flex-col items-center md:items-start rounded-[14px]">
-            <div className="w-full">
+            <div className="w-full z-0">
               <MapComponent />
             </div>
             <div className="h-[20px] sm:h-[30px] md:h-[30px]"></div>
-            <button className="w-full p-3 bg-red-700 rounded-lg text-white hover:bg-white hover:text-red-700 hover:border hover:border-red-700">
-              Explore Now
-            </button>
+            <Link href="https://maps.app.goo.gl/b1s59f9jo1LHszQg7" className='w-full'>
+              <button
+                className="w-full p-3 bg-red-700 rounded-lg text-white hover:bg-white hover:text-red-700 hover:border hover:border-red-700"
+              >
+                Explore Now
+              </button>
+            </Link>
           </div>
         </div>
       </div>
-      <div className="h-[80px]"></div>
-      <div id='kkt' className="px-4 sm:px-8 lg:px-[100px] flex flex-col items-center">
+      <div id='kkt' className="h-[80px]"></div>
+      <div className="px-4 sm:px-8 lg:px-[100px] flex flex-col items-center">
         <p className="mb-6 sm:mb-8 lg:mb-10 p-1 w-full text-[28px] sm:text-[30px] lg:text-[35px] flex bg-red-600 justify-center rounded-[14px] text-white text-center">
           KKT 139 Universitas Sam Ratulangi
         </p>
@@ -543,9 +547,9 @@ export default function Home() {
               { imgSrc: '/peserta_kkt/anggota_bid_perlengkapan.png', name: 'Rafael W. Taroreh', role: 'Anggota Bidang Perlengkapan' }
             ].map(({ imgSrc, name, role }, index) => (
               <div key={index} className="w-full sm:w-[45%] md:w-[30%] lg:w-[22%] flex flex-col justify-center items-center rounded-[14px] bg-white shadow-md">
-                <img src={imgSrc} alt={name} className="mb-0 sm:mb-6 w-full rounded-[14px]" />
+                <img src={imgSrc} alt={name} className=" w-full rounded-[14px]" />
                 <p className="text-[18px] sm:text-[20px] font-bold text-red-600">{name}</p>
-                <p className="mb-6 sm:mb-0 text-[12px] sm:text-[14px] text-center">{role}</p>
+                <p className="mb-6 text-[12px] sm:text-[14px] text-center">{role}</p>
               </div>
             ))}
           </div>
