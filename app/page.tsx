@@ -64,6 +64,52 @@ export default function Home() {
               <p className="text-[14px] md:text-[16px] lg:text-[18px]">Kerangka manusia purba yang di temukan di Situs Purbakala “Bukit Kerang Passo” (Lokasinya di gereja GMIM Immanuel Passo). Saat ini kerangka tersebut ada di museum Arkeolog Ranomu’ut Manado.</p>
             </div>
           </div>
+          <div className='h-[40px]'></div>
+          <p className='text-[30px] font-semibold'>Pemerintahan di Desa Passo</p>
+          <p>Wanua Passo saat ini terdiri dari 9 Jaga (dusun/Lingkungan).
+            Seperti wanua lainnya di Minahasa, wanua Passo pun dipimpin oleh seorang Hukum Tua yang dipilih langsung oleh masyarakat secara demokratis.
+            Setelah terpilih maka Hukum Tua akan memilih Sekretaris Desa (Sekdes) dan orang-orang yang akan bertugas selama kepemimpinannya.</p>
+          <p>Pala (Kepala Jaga) dan Meweteng (Wakil Kepala Jaga) adalah pemimpin di dusun/Jaga. Mereka dulunya dipilih juga oleh HukumTua, namun sejak ada peraturan baru, maka mereka dipilih langsung oleh warga di lingkungan masing-masing.
+            Ini adalah nama-nama mereka yang pernah bertugas sebagai Hukum Tua di Passo:</p>
+
+          <div className='mt-5 w-full flex flex-row justify-between'>
+            <ul>
+              <li>Lukas Sanger </li>
+              <li>Hendrik Sanger</li>
+              <li>Wilem ingkiriwang</li>
+              <li>Ferdinan Ingkiriwang</li>
+              <li>Eduard Ingkiriwang</li>
+              <li>Manuel Ingkiriwang</li>
+              <li>Johanis Kumendong</li>
+            </ul>
+            <ul>
+              <li>Emil Sumayku</li>
+              <li>Paulus Sanger</li>
+              <li>Eskie Tumbelaka</li>
+              <li>Alex Hendrik Sanger</li>
+              <li>Wem Kaeng</li>
+              <li>Semuel Sanger</li>
+              <li>Attu Sanger</li>
+            </ul>
+            <ul>
+              <li>Semuel Sanger (Terpilih Kembali)</li>
+              <li>Jhoachim Sanger</li>
+              <li>Wem Tumbelaka</li>
+              <li>Frits Sumayku</li>
+              <li>Harmen Kumaseh</li>
+              <li>Charles taniowas</li>
+              <li>Jhoni supit</li>
+            </ul>
+            <ul>
+              <li>Adeline Walangitan-Supit </li>
+              <li>Stery Livia Aseng </li>
+              <li>Arnold Tamboto</li>
+              <li>Jhoni Wehantouw</li>
+              <li>Nelfin mamentu</li>
+            </ul>
+          </div>
+
+
         </div>
 
         <div id="potensi_desa" className="h-[80px]"></div>
